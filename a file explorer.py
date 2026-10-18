@@ -86,7 +86,7 @@ if login():
         4. delete file
         5. rewrite file
         6. view storage
-        7. exit""")
+        7. exit""") 
 
         try:
             choice = int(input("choose 1-5: "))

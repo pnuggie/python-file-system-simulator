@@ -78,7 +78,7 @@ if login():
         print("total files:", len(files))
 
         if storagesize() >= storagelimit * 0.9: # 90% of whatever storagelimit i decide to choose
-            print("warning: storage almost full!")
+            print("warning: storage 90% full!")
         
         print("""1. add new file
         2. view all files
@@ -86,7 +86,7 @@ if login():
         4. delete file
         5. rewrite file
         6. view storage
-        7. exit""")
+        7. exit""") 
 
         try:
             choice = int(input("choose 1-5: "))
